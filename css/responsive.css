@@ -1,188 +1,104 @@
+@media (max-width: 1300px) {}
+
 @media (max-width: 1120px) {}
 
 @media (max-width: 992px) {
   .hero_area {
-    height: auto;
+    min-height: auto;
   }
 
-  #navbarSupportedContent {
-    opacity: 1;
-    transform: none;
-    margin-top: 15px;
+  .hero_area {
+    background: linear-gradient(130deg, #231a6f, #0f054c);
   }
 
-
-  .navbar-toggler {
-    padding: 0.25rem 0;
-  }
-
-
-  .header_section .user_option {
+  .hero_area .hero_bg_box {
     display: none;
-  }
-
-  .custom_menu-btn {
-    display: none;
-  }
-
-  .navbar-nav {
-    align-items: center;
-  }
-
-  .custom_nav-container .navbar-toggler {
-    margin-left: auto;
-  }
-
-  .custom_nav-container {
-    padding: 15px 0;
-    height: auto;
   }
 
   .slider_section {
-    padding-top: 45px;
-    padding-bottom: 120px;
+    padding: 45px 0 75px 0;
   }
 
-  .info_section .info_contact .link-box .img-box {
-    margin-right: 8px;
+  .custom_nav-container .navbar-nav {
+    padding-top: 15px;
+    align-items: center;
   }
+
+
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 5px 25px;
+    margin: 5px 0;
+  }
+
 
 }
 
-@media (max-width: 767px) {
-  .hero_area {
-    background: none;
-    background-color: #1a2e35;
-    /* background: linear-gradient(to bottom, #1a2e35 40%, #1cbbb4 40%); */
-  }
-
-  .slider_section {
-    text-align: center;
-    padding-bottom: 0;
-  }
-
-  .slider_section .detail-box {
-    margin-bottom: 75px;
-  }
-
-  .slider_section .detail-box .btn-box {
-    justify-content: center;
-  }
-
-
-  .img-container {
-    padding: 0;
-  }
-
-  .slider_section .img-container .img-box {
-
-    padding: 45px 0;
-    background-color: #1cbbb4;
-  }
-
-  .experience_section .img-box {
-
+@media (max-width: 768px) {
+  .about_section .img-box {
     margin-bottom: 45px;
-
   }
-
-  .category_section .category_container .box {
-    flex-basis: 34%;
-  }
-
-  .client_section .detail-box {
-    margin: 25px;
-    padding: 45px 25px 35px 25px;
-  }
-
-  .client_section .carousel-control-prev,
-  .client_section .carousel-control-next {
-    top: 92%;
-  }
-
-  .info_section .info_top {
-
-    flex-direction: column;
-
-  }
-
-  .info_section .info_top .social_box {
-    margin-top: 35px;
-  }
-
-  .info_section .row>div {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 25px;
-
-  }
-
-  .info_section .info_contact .link-box {
-    margin: 0;
-  }
-
-
 
 }
 
 @media (max-width: 576px) {
-  .category_section .category_container {
-    justify-content: center;
+  .header_section .header_top .contact_nav a span {
+    display: none;
   }
 
-  .category_section .category_container .box {
-    flex-basis: 52%;
+
+  .client_section .client_container {
+    width: 100%;
+  }
+
+  .client_section .box {
+    margin: 0;
+  }
+
+  .owl-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+  }
+
+  .client_section .owl-carousel .owl-nav .owl-prev,
+  .client_section .owl-carousel .owl-nav .owl-next {
+    position: unset;
+    margin: 0 2.5px;
   }
 }
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+  .slider_section .detail-box h1 {
+    font-size: 2rem;
+  }
+
+  .track_section form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .track_section form input {
+    width: 100%;
+  }
+
+  .track_section form button {
+    padding: 10px 60px;
+    margin-top: 10px;
+  }
+}
 
 @media (max-width: 420px) {
-  .client_section .detail-box {
-    margin: 25px 5px;
-    box-shadow: 0px 0px 2px 0 rgba(0, 0, 0, 0.2);
+  .service_section .box {
+    flex-direction: column;
   }
 
-  .slider_section .carousel_btn-container {
-
-    width: 100px;
-  }
-
-  .slider_section .carousel_btn-container .carousel-control-prev,
-  .slider_section .carousel_btn-container .carousel-control-next {
-    width: 45px;
-    height: 45px;
-    background-size: 12px;
-  }
-
-  .slider_section ol.carousel-indicators {
-    right: 0;
-  }
-
-  .client_section .carousel-control-prev,
-  .client_section .carousel-control-next {
-
-    top: 95%;
-
-  }
-
-
-  .client_section .carousel-control-prev,
-  .client_section .carousel-control-next {
-    width: 50px;
-    height: 50px;
-    background-size: 8px;
-  }
-
-  .freelance_section .tab_container .t-link-box .detail-box h3 {
-    font-size: 22px;
+  .service_section .box .img-box {
+    justify-content: flex-start;
+    margin-bottom: 15px;
   }
 }
 
-@media (max-width: 360px) {}
+@media (max-width: 376px) {}
 
 @media (min-width: 1200px) {
   .container {
